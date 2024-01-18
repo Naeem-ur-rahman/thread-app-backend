@@ -1,3 +1,12 @@
 # thread-app-backend
 
-This project is using GraphQL for the API Managment
+This project Uses:
+
+- GraphQL
+- Docker
+- Nodejs
+- Apollo Server
+- Express
+- Postgresql
+- Prisma
+
