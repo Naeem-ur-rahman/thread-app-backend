@@ -1,7 +1,13 @@
 import UserService, { CreateUserPayload } from "../../services/user";
 
 const queries = {
-    hello: () => `Hy, How are you`
+    getUserToken: (_: any, payload: { email: string, password: string }) => {
+        const token = UserService.getUserToken({
+            email: payload.email,
+            password: payload.password
+        })
+        return token;
+    }
 };
 const mutations = {
     createUser: async (_: any, payload: CreateUserPayload) => {
