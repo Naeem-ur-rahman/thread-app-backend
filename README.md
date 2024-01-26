@@ -9,4 +9,7 @@ This project Uses:
 - Express
 - Postgresql
 - Prisma
+- Jsonwebtoken
+- Authentication
+- Authorization
 
